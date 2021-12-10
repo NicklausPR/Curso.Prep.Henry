@@ -29,6 +29,9 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   
+
+  return str;
+
 }
 
 function suma(x, y) {
@@ -36,24 +39,34 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   
+
+  
+  return x+y;
+
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
+ return x-y;
+
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
+ return x*y;
+
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
+ return x/y;
+
 }
 
 function sonIguales(x, y) {
@@ -61,6 +74,8 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+ if (x === y) {return true}
+ return false
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -68,6 +83,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+   
+
 }
 
 function menosQueNoventa(num) {
